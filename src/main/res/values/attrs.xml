@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vertexType" format="enum">
+        <enum name="intermediate" value="0"/>
+        <enum name="start" value="1"/>
+        <enum name="end" value="2"/>
+    </attr>
+    <declare-styleable name="VertexView">
+        <attr name="vertexType"/>
+        <attr name="outlineColor" format="color"/>
+        <attr name="size" format="dimension"/>
+        <attr name="highlightSizeMultiplier" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="GraphLayout">
+        <attr name="edgeColor" format="color"/>
+        <attr name="shortestPathEdgeColor" format="color"/>
+        <attr name="edgeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VertexViewStyle" parent="@android:style/Widget">
+        <item name="android:layout_width">@dimen/vertex_size</item>
+        <item name="android:layout_height">@dimen/vertex_size</item>
+        <item name="outlineColor">@android:color/black</item>
+        <item name="vertexType">intermediate</item>
+        <item name="size">@dimen/vertex_size</item>
+        <item name="highlightSizeMultiplier">2</item>
+    </style>
+
+    <style name="GraphLayoutStyle" parent="@android:style/Widget">
+        <item name="edgeColor">@android:color/black</item>
+        <item name="shortestPathEdgeColor">#FF00FF00</item>
+        <item name="edgeWidth">@dimen/egde_width</item>
+    </style>
+</resources>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">BYOG</string>s
+    <string name="app_name">BYOG</string>
+    <string name="restart">Restart</string>
+    <string name="instructions">1. Move vertices as you like\n2. Long press vertex to spawn new one\n3. Connect green
+        verticies. Shortest path will be highlighted
+    </string>
 </resources>
